@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Name: John Doe\nRole: IT Support Specialist",
+      "Ayush Pandey\nayushpandey.cs@gmail.com | GitHub | LinkedIn | +917905581991",
+      "SOURABH TYAGI                                  E-mail: sourabhtyagi750@gmail.com"
+    ],
+    "persona": "student",
+    "job": "summary",
+    "processing_timestamp": "2025-07-28T16:01:02.439316"
+  },
+  "sections": [
+    {
+      "document": "Name: John Doe\nRole: IT Support Specialist",
+      "page": 1,
+      "section_title": "Name: John Doe | Role: IT Support Specialist",
+      "importance_rank": 2,
+      "refined_text": "Name: John Doe\nRole: IT Support Specialist\nEmail: john.doe@example.com\nPhone: +1 234 567 8901\nProfessional Summary:\nExperienced IT Support Specialist with 3+ years of hands-on experience troubleshoo(c..."
+    },
+    {
+      "document": "Ayush Pandey\nayushpandey.cs@gmail.com | GitHub | LinkedIn | +917905581991",
+      "page": 1,
+      "section_title": "Ayush Pandey | ayushpandey.cs@gmail.com | GitHub | LinkedIn | +917905581991",
+      "importance_rank": 1,
+      "refined_text": "Ayush Pandey\nayushpandey.cs@gmail.com | GitHub | LinkedIn | +917905581991\n________________________________________________\nSummary\n\u2022 Designed and deployed a multi-cloud serverless microservice archite..."
+    },
+    {
+      "document": "SOURABH TYAGI                                  E-mail: sourabhtyagi750@gmail.com",
+      "page": 1,
+      "section_title": "SOURABH TYAGI                                  E-mail: sourabhtyagi750@gmail.com | ",
+      "importance_rank": 1,
+      "refined_text": "SOURABH TYAGI E-mail: sourabhtyagi750@gmail.com\nLinkedIn || GitHub Mob: +91 8717949458\nCarrer Objective\nAspiring Analog Circuit Design Engineer with hands-on expertise in designing and simulating anal..."
+    }
+  ]
+}
